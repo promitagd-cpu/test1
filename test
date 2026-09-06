@@ -1,0 +1,31 @@
+secret_number = input(random.randiant(1,50))
+print ("Guess the number between 1 and 50: ")
+print ("you have 5 guesses :  ")
+guess_1 = int(input("Guess the number=  "))
+if guess_1 == secret_number:
+    print ("You guessed correctly!")
+else:
+    print ("you guessed wrong")
+guess_2 = int(input("guess again:   "))
+if guess_2 == secret_number:
+    print ("guess was correct!")
+else:
+    print ("you guessed wrong")
+guess_3 = int(input("guess again:  "))
+if guess_3 == secret_number:
+   print ("guess was correct:  ")
+else:
+    print ("you guessed wrong")
+guess_4 = int(input("guess again:  "))
+if guess_4 == secret_number:
+   print ("guess was correct:  ")
+else:
+    print ("you guessed wrong")
+guess_5 = int(input("guess again:  "))
+if guess_5 == secret_number:
+   print ("guess was correct:  ")
+else:
+    print ("you guessed wrong")
+
+
+
